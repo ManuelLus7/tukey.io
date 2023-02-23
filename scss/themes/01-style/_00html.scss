@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+  }
+  
+  @media only screen and (max-width:400px) {
+    html {
+      font-size: 9.444444444444444px;
+    }
+  
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    background: #121619;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.778;
+    color: #545454;
+    margin: 0;
+    padding: 0;
+  }

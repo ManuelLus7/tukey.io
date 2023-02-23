@@ -1,0 +1,36 @@
+.home-content__social {
+  list-style: none;
+  margin: 0;
+  font-size: 17px;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: absolute;
+  right: calc(40px + (5.6rem/2));
+  top: 50%;
+  -webkit-transform: rotate(-270deg) translate3d(50%, 0, 0);
+  -ms-transform: rotate(-270deg) translate3d(50%, 0, 0);
+  transform: rotate(-270deg) translate3d(50%, 0, 0);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+}
+
+.home-content__social li {
+  display: inline;
+  margin-right: 6px;
+}
+
+.home-content__social li:last-child {
+  margin-right: 0;
+}
+
+.home-content__social a {
+  color: #22f606;
+}
+
+.home-content__social a:hover,
+.home-content__social a:hover,
+.home-content__social a:active {
+  color: #ffffff;
+}

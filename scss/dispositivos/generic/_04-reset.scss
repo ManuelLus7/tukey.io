@@ -1,0 +1,40 @@
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-variant-ligatures: common-ligatures;
+    -moz-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+  }
+  
+  em,
+  i {
+    font-style: italic;
+    line-height: inherit;
+  }
+  
+  strong,
+  b {
+    font-weight: bold;
+    line-height: inherit;
+  }
+  
+  small {
+    font-size: 60%;
+    line-height: inherit;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    display: block;
+  }
+  

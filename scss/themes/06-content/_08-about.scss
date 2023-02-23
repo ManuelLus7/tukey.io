@@ -1,0 +1,22 @@
+.s-about {
+    padding-top: 23.2rem;
+    padding-bottom: calc(62.4rem/2);
+    background-color: #000000;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .s-about .section-header.has-bottom-sep::before {
+    background-color: #000000;
+  }
+  
+  .s-about .display-1,
+  .s-about h3 {
+    color: #ffffff;
+  }
+  
+  .s-about p.lead {
+    color: #7a7878;
+  }
+  

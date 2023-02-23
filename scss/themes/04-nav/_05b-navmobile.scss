@@ -1,0 +1,130 @@
+@media only screen and (max-width:1400px) {
+    .header-nav-wrap .header-cta {
+      right: 20px;
+    }
+  
+  }
+  
+  @media only screen and (max-width:1200px) {
+    .header-nav-wrap .header-cta {
+      right: 0;
+    }
+  
+  }
+  
+  @media only screen and (max-width:1000px) {
+    .header-nav-wrap {
+      padding-left: 170px;
+    }
+  
+    .header-nav-wrap .header-main-nav {
+      font-size: 11px;
+    }
+  
+    .header-nav-wrap .header-cta__btn {
+      height: 4.8rem;
+      line-height: 4.4rem;
+      padding: 0 1.6rem;
+    }
+  
+  }
+  
+  @media only screen and (max-width:900px) {
+    .header-nav-wrap {
+      text-align: right;
+    }
+  
+    .header-nav-wrap .header-cta {
+      display: none;
+    }
+  
+  }
+  
+  @media only screen and (max-width:800px) {
+    .s-header {
+      background-color: #0e1113;
+      position: fixed;
+      top: 0;
+    }
+  
+    .s-header > .row {
+      width: 100%;
+      padding: 0 !important;
+    }
+  
+    .header-logo {
+      margin: 8px 0 0 0;
+      left: 44px;
+    }
+  
+    .header-nav-wrap {
+      display: none;
+      height: auto;
+      width: 100%;
+      background-color: #0e1113;
+      padding: 64px 44px 72px;
+      text-align: left;
+      position: absolute;
+      top: 78px;
+    }
+  
+    .header-nav-wrap .header-main-nav {
+      display: block;
+      font-size: 12px;
+      padding-left: 0;
+      margin: 0;
+      height: auto;
+      border-top: 1px solid rgba(255, 255, 255, 0.03);
+    }
+  
+    .header-nav-wrap .header-main-nav li {
+      display: block;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+  
+    .header-nav-wrap .header-main-nav li a {
+      padding: 18px 0;
+      line-height: 18px;
+    }
+  
+    .header-nav-wrap .header-cta {
+      display: block;
+      position: static;
+      -webkit-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      margin-top: 4.8rem;
+    }
+  
+    .header-nav-wrap .header-cta__btn {
+      display: block;
+      font-size: 1.2rem;
+      height: 5.2rem !important;
+      line-height: 4.8rem !important;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .header-menu-toggle {
+      display: block;
+    }
+  
+  }
+  
+  @media only screen and (max-width:400px) {
+    .header-logo {
+      left: 40px;
+    }
+  
+    .header-nav-wrap {
+      padding: 40px 40px 64px;
+    }
+  
+    .header-menu-toggle {
+      right: 36px;
+    }
+  
+  }
+  

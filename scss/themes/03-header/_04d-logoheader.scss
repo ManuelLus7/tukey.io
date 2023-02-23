@@ -1,0 +1,26 @@
+.header-logo {
+  z-index: 601;
+  display: inline-block;
+  margin: 6px 0 0 0;
+  padding: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.header-logo a {
+  display: inline-block;
+  padding: 0;
+  outline: 0;
+  border: none;
+}
+
+.header-logo img {
+  width: 130px;
+  height: 36px;
+}

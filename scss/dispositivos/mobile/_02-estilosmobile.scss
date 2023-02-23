@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-weight: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: none;
+  }
+  
+  body,
+  input,
+  button {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  

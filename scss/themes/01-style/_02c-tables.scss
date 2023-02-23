@@ -1,0 +1,35 @@
+table {
+  border-width: 0;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1.6rem 3.2rem 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+}
+
+th {
+  color: #000000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}

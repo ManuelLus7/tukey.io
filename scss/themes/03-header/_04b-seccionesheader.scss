@@ -1,0 +1,29 @@
+.section-header {
+  max-width: 800px;
+}
+
+.section-header.has-bottom-sep {
+  padding-bottom: 2.8rem;
+  position: relative;
+  text-align: center;
+}
+
+.section-header.has-bottom-sep:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-header.has-bottom-sep::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 320px;
+  background-color: #d6d6d6;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  -ms-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+}

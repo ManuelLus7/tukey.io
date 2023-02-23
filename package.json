@@ -4,7 +4,9 @@
   "description": "Sitio de Seguros para Generar Polizas y optimizar la Cartera de Clientes de los Productores Asesores de Seguros",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "crear-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "ver-css": "nodemon -e scss -x \"npm run build-css\""
+  
   },
   "author": "Manuel Lus",
   "license": "ISC",
