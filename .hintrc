@@ -18,7 +18,8 @@
     "axe/text-alternatives": [
       "default",
       {
-        "image-alt": "off"
+        "image-alt": "off",
+        "frame-title": "off"
       }
     ],
     "axe/name-role-value": [
@@ -26,7 +27,15 @@
       {
         "link-name": "off"
       }
-    ]
+    ],
+    "meta-viewport": "off",
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   },
   "browserslist": [
     "defaults",

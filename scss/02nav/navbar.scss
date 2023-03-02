@@ -1,0 +1,153 @@
+a#open-close{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	background: url(../images/menu/abrir.jpg) center;
+	z-index: 999;
+	display: none;
+	border-radius: 40px;
+	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, .4);
+}
+
+header{
+	height: 110px;
+	position:fixed !important;
+	left: 0;
+	top:0;
+	z-index: 995;
+	border-bottom: .5px solid rgba(255, 255, 255, .5);
+	transition: all 0.3s ease;
+	background: rgba(19, 21, 25, .65);
+	box-shadow: 0 2px 6px 1px rgba(0, 0, 0, .7);
+}
+
+a#logo{
+	width: 320px;
+	height: 100px;
+	position: fixed;
+	display: inline-block;
+	top: 30px;
+	left: 0;
+	background: url(../images/menu/logo.png) top left no-repeat;
+	background-size: 100%;
+	z-index: 999;
+	transition: all 0.3s ease;
+}
+
+div#banner{
+	position: fixed;
+	z-index: 995;
+	top: 0;
+	left: 0;
+	background: #016914;
+	height: 30px;
+	padding-right: 20px;
+	text-align: right;
+	transition: all 0.3s ease;
+}
+div#banner a{
+	text-align: center;
+	border-bottom: none !important;
+	font-family: light;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 30px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	margin: 0 5px;
+	border-bottom: 2px solid transparent;
+	box-sizing: border-box;
+}
+div#banner a, div#banner a img{
+	vertical-align: top;
+	display: inline-block
+}
+
+nav{
+	width: auto;
+	height: 80px;
+	padding: 0 20px;
+	position: fixed;
+	right: 0;
+	top:30px;
+	transition: all 0.3s ease;
+	z-index: 996;
+	text-align: right;
+}
+
+nav a{
+	font-family: bold;
+	font-size: 18px;
+	color: #FFF;
+	line-height: 80px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	margin: 0 10px;
+	border-bottom: 2px solid transparent;
+	box-sizing: border-box;
+}
+nav a:hover{
+	border-bottom: 2px solid #FFF;
+}
+
+header.smaller{
+	height: 50px;
+	background: rgba(19, 21, 25, .85);
+}
+header.smaller div#banner{
+	height: 3px;
+}
+header.smaller div#banner a{
+	opacity: 0;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+header.smaller a#logo{
+	top: 3px;
+	width: 290px;
+	height: 80px;
+}
+header.smaller nav{
+	height: 50px;
+	top: 0;
+}
+header.smaller nav a{
+	color: #E6E6E6;
+	line-height: 50px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+header{height:90px;}
+a#logo{	width: 200px;height: 60px;background-size: 200px;}
+nav{height: 60px;}
+nav a{line-height: 60px;}
+nav a#telefono{width: 120px;}
+nav a#telefono img{max-width: 12px;}
+nav a#contacto{line-height: 30px !important;}
+
+header.smaller{height: 40px;}
+header.smaller nav{height: 40px;}
+header.smaller nav a{line-height: 40px !important;}
+}
+@media screen and (max-width: 800px){
+div#banner{display: none}
+a#logo, header.smaller a#logo{top: 0;}
+header, header.smaller{background:none;border:none;box-shadow: none;}
+
+
+
+nav, header.smaller nav{top:0;padding-top:60px;padding-bottom:20px;width: 100%;position: fixed;right: 0;z-index: 998;opacity: 0;height: 0;overflow:hidden;text-align: center;border-bottom: .5px solid rgba(255, 255, 255, .5);transition: all 0.3s ease;background: rgba(19, 21, 25, .85);box-shadow: 0 2px 6px 1px rgba(0, 0, 0, .7);}
+nav a, header.smaller nav a{font-size: 21px !important;line-height: 40px !important;display: block;width: 100% !important;}
+nav a:hover{border-bottom: 2px solid #FFF;}
+
+.menu-activo{height: auto !important;opacity: 1 !important;}
+a#open-close{display: inline-block;}
+}
+
+

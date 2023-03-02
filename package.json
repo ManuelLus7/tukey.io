@@ -1,6 +1,6 @@
 {
-  "name": "proyectosass",
-  "version": "1.0.0",
+  "name": "Pre-Entrega3-Sitio Web Cwin",
+  "version": "2.0.1",
   "description": "Sitio de Seguros para Generar Polizas y optimizar la Cartera de Clientes de los Productores Asesores de Seguros",
   "main": "index.js",
   "scripts": {

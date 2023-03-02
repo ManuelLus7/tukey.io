@@ -1,0 +1,71 @@
+@mixin columnasmix {
+    display:inline-block;
+    position:relative;
+    vertical-align:top;
+
+}
+$width: 100%;
+$width-col: ($width/12);
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.margen{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:30px;
+    padding-right:30px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.columna1{
+	@include columnasmix;
+	width:100%;
+}
+
+.columna2{
+    @include columnasmix;
+    $width-col: ($width/2);
+}
+
+.columna3{
+    @include columnasmix;
+    $width-col: ($width/3);
+}
+
+.columna4{
+    @include columnasmix;
+    $width-col: ($width/4);
+}
+
+.columna5{
+    @include columnasmix;
+    $width-col: ($width/5);
+}
+
+.columna6{
+    @include columnasmix;
+    $width-col: ($width/6);
+}
+
+.columna6B{
+    @include columnasmix;
+    $width-col: ($width/3);
+}
+
+.columna2-3{
+    @include columnasmix;
+    $width-col: (($width/4)*2);
+}
+
+.columna3-4{
+    @include columnasmix;
+    $width-col: (($width/4)*3);
+}

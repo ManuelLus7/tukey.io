@@ -1,0 +1,69 @@
+@media screen and (max-width: 1680px){
+}
+@media screen and (max-width: 1440px){
+}
+@media screen and (max-width: 1280px){
+}
+@media screen and (max-width: 1024px){
+.container{width: 800px;}
+h1{font-size: 54px;}
+h2{ font-size:36px;}
+h3{ font-size:24px;}
+h4{font-size:16px;}
+p{font-size:14px;}
+section#contacto h2{transform: scale(1);}
+div#datosb,  div#datosc{float: left;}
+}
+@media screen and (max-width: 800px){
+.columna2{width:100%;}
+.columna3{width:100%;}
+.columna4{width:50%;}
+.columna5{width:50%;}
+.columna6{width:33.33%;}
+.columna2-3{width:100%;}
+.columna3-4{width:100%;}  
+.container{width: 80%;} 
+
+div#datos{padding-left: 0px;margin-left: 0px;border-left:none;padding-top: 20px;float: left;}
+h1{font-size: 50px;}
+}
+@media screen and (max-width: 600px){
+h1{font-size: 48px;}
+h2{ font-size:32px;}
+h3{ font-size:24px;}
+h4{font-size:16px;}
+p{font-size:14px;}
+div#datos p{transform: scale(1.25);}
+}
+@media screen and (max-width: 480px){
+#status {width:200px;height:110px; margin:-110px 0 0 -100px;background-size: 200px !important;}
+h1{font-size: 32px;}
+h2{ font-size:24px;}
+h3{ font-size:24px;}
+h2 img{max-width: 8px;}
+
+form{ width:220px;}
+form p{display: block;padding-right: 10px;padding-left: 10px;padding-bottom: 20px;width: 200px;font-size: 12px;}
+p#categoria{font-size: 16px;width: 200px;}
+p#comentarios{width: 200px;padding-left: 10px;padding-right: 10px;}
+textarea{width: 180px;height: 100px;}
+div#datos p{transform: scale(1);}
+}
+@media screen and (max-width: 320px){
+}
+
+@media screen and (max-height: 800px){
+iframe{height: 500px;}
+}
+
+@media screen and (max-height: 600px){
+
+iframe{height: 400px;}
+}
+
+@media screen and (max-height: 480px){
+iframe{height: 250px;}
+}
+
+@media screen and (max-height: 420px){
+}

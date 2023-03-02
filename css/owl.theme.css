@@ -1,0 +1,69 @@
+
+/*posicion de controles*/
+.owl-controls{
+width:100%;
+text-align: center;
+}
+
+/* Next y Prev*/
+.owl-theme .owl-controls .owl-buttons div{
+	display: inline-block;
+	height:50px;
+	width:50px;
+	font-size: 0;
+	background: #FFF;
+}
+/*Next*/
+.owl-next{
+	position: absolute;
+	top: 24px;
+	right:0;
+}
+/*Prev*/
+.owl-prev{
+	position: absolute;
+	top: 24px;
+	left:0;
+}
+
+
+/* Pagination*/
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	margin-top: -10px;
+	
+}
+/*Pagination Botones*/
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	background: #FFF;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}

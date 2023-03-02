@@ -1,0 +1,51 @@
+div#datos{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+    color: #FFF;
+    width: 100%;
+}
+div#datos p{
+    display: inline-block;
+    transform: scale(1.5);
+    line-height: 2em;
+    color: #E6E6E6;
+}
+ div#datosb{
+  display: inline-block;
+  vertical-align: top;
+  border-top:2px solid #4D4D4D;
+  color: #999999;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  padding-top: 30px;
+  margin-top: 30px;
+
+}
+ div#datosb p{
+  font-size: 12px;
+}
+ div#datosb p b{
+  font-size: 14px;
+  font-family: bold;
+}
+ div#datosc{
+  display: inline-block;
+  vertical-align: top;
+  color: #999999;
+  border-top:2px solid #4D4D4D;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+ div#datosc p{
+  font-size: 12px;
+}
+ div#datosc p b{
+  font-size: 14px;
+  font-family: bold;
+}

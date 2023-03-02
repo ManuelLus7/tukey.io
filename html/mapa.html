@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html><head><meta charset="utf-8">
+  <title>CWIN  Seguros</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    
+    <style>
+      #map {
+        height: 100%;
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  <script type="text/javascript" charset="UTF-8" src="../js/common.js">
+  </script><script type="text/javascript" charset="UTF-8" src="../js/util.js">
+  </script><script type="text/javascript" charset="UTF-8" src="../js/map.js">
+  </script><script type="text/javascript" charset="UTF-8" src="../js/marker.js">
+  </script>
+  </head>
+  <body>
+    <div id="map"><div style="height: 100%; width: 100%;"></div></div>
+    <script>
+      function initMap() {
+        // Styles a map in night mode.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -27.78899579126679, lng: -64.25742420318282},
+          zoom: 15,
+          styles:  [
+                    {
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#f5f5f5"
+                        }
+                      ]
+                    },
+                    {
+                      "elementType": "labels.icon",
+                      "stylers": [
+                        {
+                          "visibility": "off"
+                        }
+                      ]
+                    },
+                    {
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#616161"
+                        }
+                      ]
+                    },
+                    {
+                      "elementType": "labels.text.stroke",
+                      "stylers": [
+                        {
+                          "color": "#f5f5f5"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "administrative.land_parcel",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#bdbdbd"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "poi",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#eeeeee"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "poi",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#757575"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "poi.park",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#e5e5e5"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "poi.park",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#9e9e9e"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "road",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#ffffff"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "road.arterial",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#757575"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "road.highway",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#dadada"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "road.highway",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#616161"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "road.local",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#9e9e9e"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "transit.line",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#e5e5e5"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "transit.station",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#eeeeee"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "water",
+                      "elementType": "geometry",
+                      "stylers": [
+                        {
+                          "color": "#c9c9c9"
+                        }
+                      ]
+                    },
+                    {
+                      "featureType": "water",
+                      "elementType": "labels.text.fill",
+                      "stylers": [
+                        {
+                          "color": "#9e9e9e"
+                        }
+                      ]
+                    }
+                  ]});
+        var marker = new google.maps.Marker({
+          position: {lat: -27.78899579126679, lng: -64.25742420318282},
+          map: map,
+          title: 'CWIN Seguros / Todos Tus Seguros en Un Sólo Lugar!!!'
+        });
+      }
+    </script>
+    <script src="../js/js.js" async="" defer=""></script>
+  
+</body></html>
